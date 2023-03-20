@@ -1,4 +1,4 @@
-# Curso desenvolvedor Mobile Banco de dadoscom java
+# Curso desenvolvedor Mobile Android
 
 <p align="justify">
     Curso de Desenvolvedor Mobile Android no Senai, Disciplina Banco de Dados em aplicativos mobile com Java.
@@ -10,11 +10,12 @@
 Agora que você já elaborou a modelagem para o projeto de banco de dados da empresa Coma Bem, é hora de criar as tabelas, utilizando linguagem de definição de banco de dados SQL. 
 </p>
 
-## Modelo
+## Modelo:
 
 ![Captura de tela de 2023-03-19 20-24-49](https://user-images.githubusercontent.com/21234981/226217308-7ad15c3e-1988-421f-9e17-d736423b2421.png)
 
-## Tecnologias usadas
+## Tecnologias usadas:
 
 - [MariaDB](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.11.2&os=Linux&cpu=x86_64&pkg=tar_gz&i=systemd&m=fder): versão 10.11.2
 
+- [DBeaver](https://dbeaver.io/): versão 23.0.0
