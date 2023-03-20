@@ -1,9 +1,9 @@
 # Curso desenvolvedor Mobile Android
 
 <p align="justify">
-    Curso de Desenvolvedor Mobile Android no Senai. 
-    Disciplina Banco de Dados em aplicativos mobile com Java.
+    Curso de Desenvolvedor Mobile Android no [Senai](https://www.futuro.digital/dn-desenvolvedor-mobile-android-qua042-119-428h/p).     
 </p>
+<p align="justify"> Disciplina Banco de Dados em aplicativos mobile com Java. </p>
 
 ## Desafio 06:
 <p align="justify">Descrição:</p>
