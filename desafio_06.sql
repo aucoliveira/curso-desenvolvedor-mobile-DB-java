@@ -18,7 +18,7 @@ create table Pedidos (
 	id_produto int not null,
 	id_pedido int not null,
 	quantidade double not null,
-	data dateSt not null,
+	data date not null,
 	constraint fk_produto foreign key(id_produto)
 	references Produto (id_produto)
 	);
