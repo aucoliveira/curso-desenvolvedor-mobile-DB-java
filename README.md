@@ -23,6 +23,12 @@ Agora que você já elaborou a modelagem para o projeto de banco de dados da emp
 <p align="justify">ELABORAÇÃO DE SCRIPT PARA MANIPULAÇÃO DE DADOS </p>
 <p align="justify"> Após criar as tabelas do banco de dados da empresa Coma Bem, agora elabore o script para a inserção, alteração, consulta e exclusão de dados. </p>
 
+## Desafio 08:
+<p align="justify">Descrição:</p>
+<p align="justify">Restrição de acesso de usuário. </p>
+<p align="justify"> Agora que você já criou seu banco de dados, só falta aplicar procedimentos para restringir o acesso de usuários, de acordo com o perfil de autenticação.. </p>
+
+
 ## Tecnologias usadas:
 
 - [MariaDB](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.11.2&os=Linux&cpu=x86_64&pkg=tar_gz&i=systemd&m=fder): versão 10.11.2
