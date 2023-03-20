@@ -16,5 +16,5 @@ Agora que você já elaborou a modelagem para o projeto de banco de dados da emp
 
 ## Tecnologias usadas
 
-- [MadiaDB](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.11.2&os=Linux&cpu=x86_64&pkg=tar_gz&i=systemd&m=fder): versão 10.11.2
+- [MariaDB](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.11.2&os=Linux&cpu=x86_64&pkg=tar_gz&i=systemd&m=fder): versão 10.11.2
 
