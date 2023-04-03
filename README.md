@@ -35,6 +35,11 @@ Agora que você já elaborou a modelagem para o projeto de banco de dados da emp
  
 Codifique as classes de objeto para a aplicação de compras dos produtos, com uma classe para cada tabela, utilizando a ferramenta idea InteliJ.. </p>
 
+## Desafio 12:
+<p align="justify">Descrição:</p>
+<p align="justify">Criação de Acesso para Manipulação de Dados. </p>
+<p align="justify"> Ainda utilizando a ferramenta idea InteliJ, crie as classes para o acesso ao banco de dados que efetuem transações para a inserção, alteração, consulta e exclusão dos dados da empresa Coma bem.. </p>
+
 
 ## Tecnologias usadas:
 
