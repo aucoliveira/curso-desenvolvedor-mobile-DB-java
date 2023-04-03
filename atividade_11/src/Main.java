@@ -13,35 +13,50 @@ public class Main {
     public static void main(String[] args)  {
         LocalDateTime data = LocalDateTime.now();
 
+        // Criando um objeto para a conexao com o banco de dados.
         ConexaoDAO conexaoDB = new ConexaoDAO();
-        Produto carne = new Produto(1,"Fraldinha",20.57);
-        //System.out.println(carne);
 
-        conexaoDB.inserindoProduto(carne);
-        System.out.println("");
+        //Criando o primeiro produto
+        Produto carne = new Produto(1,"Fraldinha",20.57);
 
         Pedido pedido1 = new Pedido(3,carne,3.0f, data,(carne.getPreco() * 3.0f));
+
+        // Inserindo no banco de dados passando como parametro um objeto
+        conexaoDB.inserindoProduto(carne);
+
+        // Inserindo no banco de dados informando os campos.
+        conexaoDB.inserindoProduto("Pão",2.87);
+
+        conexaoDB.inserindoPedido(pedido1);
+        System.out.println("");
+
+        // Criando o pedido
+
         //System.out.println(pedido1);
 
         System.out.println("");
-        //conexaoDB.selecionarTabelaPorId("Pedidos", 5);
-        //conexaoDB.inserindoProduto("Pão",2.87);
-        conexaoDB.inserindoPedido(pedido1);
-        //conexaoDB.selecionarTabela("Produto");
+
+        // Realizando a busca por ID
+        conexaoDB.selecionarTabelaPorId("Pedidos", 5);
+
+        // Selecionando todos os campos de uma tabela, passando como parametro o nome da tabela
+        conexaoDB.selecionarTabela("Produto");
+
         //conexaoDB.inserindoPedido(2,2.0f, data,100.03);
         //conexaoDB.selecionarTabela("Pedidos");
 
-        //conexaoDAO.alteraDadosProduto(1,"Fraldinha");
-        //conexaoDAO.alteraDadosProduto(1,50.47);
+        // Alterando os dados
+        conexaoDB.alteraDadosProduto(1,"Fraldinha");
+        conexaoDB.alteraDadosProduto(1,50.47);
 
-        //Produto carne = new Produto(1,"Fraldinha",20.57);
-        //Pedido pedido = new Pedido(10,carne,10.0f, data,(carne.getPreco() * 10.0));
-        //conexaoDAO.alterandoDadosPedidos(pedido);
+        Pedido pedido = new Pedido(10,carne,10.0f, data,(carne.getPreco() * 10.0));
+        conexaoDB.alterandoDadosPedidos(pedido);
 
         conexaoDB.selecionarTabelaPorId("Pedidos",0);
 
+        // Deletando os dados
         conexaoDB.deletarPedido(5);
-        //conexaoDAO.deletarProduto(10);
+        conexaoDB.deletarProduto(10);
 
     }
 }

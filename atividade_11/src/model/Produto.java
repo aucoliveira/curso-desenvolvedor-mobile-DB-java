@@ -1,5 +1,6 @@
 package model;
 
+//Criação da entidade Produto
 public class Produto {
     private int id;
     private String nome;

@@ -2,7 +2,7 @@ package model;
 
 import java.time.LocalDateTime;
 import java.util.Date;
-
+// criação da entidade Pedido
 public class Pedido {
 
     private int id;

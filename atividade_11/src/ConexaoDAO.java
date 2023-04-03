@@ -5,6 +5,7 @@ import model.Produto;
 import java.sql.*;
 import java.time.LocalDateTime;
 
+// criação do método para conexão com o banco de dados
 public class ConexaoDAO {
 
     public Connection getConnection() {
@@ -292,7 +293,6 @@ public class ConexaoDAO {
     }
 
     // Delete
-
     public void deletarProduto(int id) {
         Connection conn = null;
         Statement stm = null;
