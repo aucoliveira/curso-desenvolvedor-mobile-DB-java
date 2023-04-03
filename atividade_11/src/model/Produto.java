@@ -9,6 +9,8 @@ public class Produto {
         return id;
     }
 
+
+
     public void setId(int id) {
         this.id = id;
     }
@@ -34,6 +36,8 @@ public class Produto {
         setNome(nome);
         setPreco(preco);
     }
+
+    public Produto(){}
 
     @Override
     public String toString() {

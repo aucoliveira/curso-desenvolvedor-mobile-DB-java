@@ -1,5 +1,6 @@
 package model;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Pedido {
@@ -8,7 +9,7 @@ public class Pedido {
     private Produto produto;
     private float quantidade;
 
-     private Date dataDaVenda;
+     private LocalDateTime dataDaVenda;
     private double valor;
 
     public int getId() {
@@ -35,11 +36,11 @@ public class Pedido {
         this.quantidade = quantidade;
     }
 
-    public Date getDataDaVenda() {
+    public LocalDateTime getDataDaVenda() {
         return dataDaVenda;
     }
 
-    public void setDataDaVenda(Date dataDaVenda) {
+    public void setDataDaVenda(LocalDateTime dataDaVenda) {
         this.dataDaVenda = dataDaVenda;
     }
 
@@ -50,7 +51,7 @@ public class Pedido {
         this.valor = valor;
     }
 
-    public Pedido(int id, Produto produto, float quantidade,Date dataDaVenda, double valor) {
+    public Pedido(int id, Produto produto, float quantidade, LocalDateTime dataDaVenda, double valor) {
         setId(id);
         setProduto(produto);
         setQuantidade(quantidade);
